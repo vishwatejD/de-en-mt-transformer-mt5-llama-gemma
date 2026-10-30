@@ -1,0 +1,14 @@
+{
+  "run": "gemma_qlora",
+  "split": "test",
+  "gpu": "NVIDIA GeForce RTX 3080 Laptop GPU",
+  "sentences": 1000,
+  "batch_size": 16,
+  "decoding": "greedy",
+  "load_seconds": 45.54,
+  "infer_seconds": 255.89,
+  "sentences_per_second": 3.91,
+  "ms_per_sentence": 255.9,
+  "peak_infer_mem_gb": 2.67,
+  "params_total": 2635108608
+}

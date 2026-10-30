@@ -1,0 +1,14 @@
+{
+  "model": "gemma (QLoRA)",
+  "hf_id": "google/gemma-2-2b-it",
+  "gpu": "NVIDIA GeForce RTX 3080 Laptop GPU",
+  "params_total": 2614341888,
+  "params_trainable": 20766720,
+  "train_pairs": 20000,
+  "epochs": 1,
+  "steps": 1250,
+  "train_seconds": 9514.3,
+  "peak_train_mem_gb": 3.96,
+  "final_dev_loss": 0.9135255813598633,
+  "adaptation": "QLoRA (4-bit NF4, LoRA r=16, all linear layers)"
+}

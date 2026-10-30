@@ -1,0 +1,41 @@
+{
+  "raw": {
+    "train": 206112,
+    "validation": 888,
+    "test": 8079
+  },
+  "train": {
+    "pairs": 204044,
+    "de_words_mean": 16.2,
+    "en_words_mean": 17.4,
+    "de_words_median": 13.0,
+    "en_words_median": 14.0,
+    "de_vocab": 215049,
+    "en_vocab": 127351
+  },
+  "dev": {
+    "pairs": 888,
+    "de_words_mean": 18.6,
+    "en_words_mean": 19.6,
+    "de_words_median": 15.0,
+    "en_words_median": 16.0,
+    "de_vocab": 5097,
+    "en_vocab": 4361
+  },
+  "test": {
+    "pairs": 1000,
+    "de_words_mean": 15.4,
+    "en_words_mean": 16.2,
+    "de_words_median": 13.0,
+    "en_words_median": 14.0,
+    "de_vocab": 5211,
+    "en_vocab": 4456
+  },
+  "train_dropped": {
+    "bad_ratio": 143,
+    "overlaps_dev_test": 1390,
+    "duplicate": 484,
+    "too_long": 51
+  },
+  "test_source": "random 1000 of 8068 official test pairs (seed 42)"
+}

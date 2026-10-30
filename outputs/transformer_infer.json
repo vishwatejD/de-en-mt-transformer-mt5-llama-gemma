@@ -1,0 +1,14 @@
+{
+  "run": "transformer",
+  "split": "test",
+  "gpu": "NVIDIA GeForce RTX 3080 Laptop GPU",
+  "sentences": 1000,
+  "batch_size": 64,
+  "decoding": "greedy",
+  "load_seconds": 0.52,
+  "infer_seconds": 8.96,
+  "sentences_per_second": 111.61,
+  "ms_per_sentence": 9.0,
+  "peak_infer_mem_gb": 0.39,
+  "params_total": 36665344
+}

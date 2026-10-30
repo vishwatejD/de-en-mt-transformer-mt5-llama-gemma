@@ -1,0 +1,14 @@
+{
+  "model": "llama (QLoRA)",
+  "hf_id": "meta-llama/Llama-3.2-3B-Instruct",
+  "gpu": "NVIDIA GeForce RTX 3080 Laptop GPU",
+  "params_total": 3212749824,
+  "params_trainable": 24313856,
+  "train_pairs": 20000,
+  "epochs": 1,
+  "steps": 1250,
+  "train_seconds": 4063.0,
+  "peak_train_mem_gb": 3.96,
+  "final_dev_loss": 1.0200001001358032,
+  "adaptation": "QLoRA (4-bit NF4, LoRA r=16, all linear layers)"
+}

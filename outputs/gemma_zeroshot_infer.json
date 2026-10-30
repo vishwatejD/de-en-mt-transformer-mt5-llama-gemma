@@ -1,0 +1,14 @@
+{
+  "run": "gemma_zeroshot",
+  "split": "test",
+  "gpu": "NVIDIA GeForce RTX 3080 Laptop GPU",
+  "sentences": 1000,
+  "batch_size": 16,
+  "decoding": "greedy",
+  "load_seconds": 1209.09,
+  "infer_seconds": 197.93,
+  "sentences_per_second": 5.05,
+  "ms_per_sentence": 197.9,
+  "peak_infer_mem_gb": 2.68,
+  "params_total": 2614341888
+}

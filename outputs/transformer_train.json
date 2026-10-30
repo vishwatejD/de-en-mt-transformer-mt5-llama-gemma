@@ -1,0 +1,136 @@
+{
+  "model": "Transformer (from scratch)",
+  "gpu": "NVIDIA GeForce RTX 3080 Laptop GPU",
+  "params_total": 36665344,
+  "params_trainable": 36665344,
+  "train_pairs": 204044,
+  "epochs": 20,
+  "steps": 28380,
+  "train_seconds": 2887.0,
+  "best_dev_bleu": 23.35,
+  "peak_train_mem_gb": 2.12,
+  "vocab": 10000,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 6.4743,
+      "dev_bleu": 1.69,
+      "train_hours": 0.041
+    },
+    {
+      "epoch": 2,
+      "train_loss": 5.016,
+      "dev_bleu": 7.55,
+      "train_hours": 0.081
+    },
+    {
+      "epoch": 3,
+      "train_loss": 4.318,
+      "dev_bleu": 14.14,
+      "train_hours": 0.121
+    },
+    {
+      "epoch": 4,
+      "train_loss": 3.97,
+      "dev_bleu": 15.55,
+      "train_hours": 0.162
+    },
+    {
+      "epoch": 5,
+      "train_loss": 3.809,
+      "dev_bleu": 17.88,
+      "train_hours": 0.202
+    },
+    {
+      "epoch": 6,
+      "train_loss": 3.7205,
+      "dev_bleu": 18.53,
+      "train_hours": 0.242
+    },
+    {
+      "epoch": 7,
+      "train_loss": 3.6636,
+      "dev_bleu": 19.69,
+      "train_hours": 0.282
+    },
+    {
+      "epoch": 8,
+      "train_loss": 3.6206,
+      "dev_bleu": 20.75,
+      "train_hours": 0.322
+    },
+    {
+      "epoch": 9,
+      "train_loss": 3.5814,
+      "dev_bleu": 20.66,
+      "train_hours": 0.362
+    },
+    {
+      "epoch": 10,
+      "train_loss": 3.5504,
+      "dev_bleu": 21.92,
+      "train_hours": 0.402
+    },
+    {
+      "epoch": 11,
+      "train_loss": 3.5234,
+      "dev_bleu": 21.86,
+      "train_hours": 0.442
+    },
+    {
+      "epoch": 12,
+      "train_loss": 3.5033,
+      "dev_bleu": 21.19,
+      "train_hours": 0.482
+    },
+    {
+      "epoch": 13,
+      "train_loss": 3.4842,
+      "dev_bleu": 22.62,
+      "train_hours": 0.522
+    },
+    {
+      "epoch": 14,
+      "train_loss": 3.468,
+      "dev_bleu": 23.35,
+      "train_hours": 0.562
+    },
+    {
+      "epoch": 15,
+      "train_loss": 3.4554,
+      "dev_bleu": 23.11,
+      "train_hours": 0.602
+    },
+    {
+      "epoch": 16,
+      "train_loss": 3.4447,
+      "dev_bleu": 22.4,
+      "train_hours": 0.642
+    },
+    {
+      "epoch": 17,
+      "train_loss": 3.4348,
+      "dev_bleu": 22.27,
+      "train_hours": 0.682
+    },
+    {
+      "epoch": 18,
+      "train_loss": 3.4245,
+      "dev_bleu": 23.3,
+      "train_hours": 0.722
+    },
+    {
+      "epoch": 19,
+      "train_loss": 3.4142,
+      "dev_bleu": 22.96,
+      "train_hours": 0.762
+    },
+    {
+      "epoch": 20,
+      "train_loss": 3.4077,
+      "dev_bleu": 22.85,
+      "train_hours": 0.802
+    }
+  ],
+  "adaptation": "full training from random init"
+}

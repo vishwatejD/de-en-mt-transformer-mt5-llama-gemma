@@ -1,0 +1,14 @@
+{
+  "run": "llama_qlora",
+  "split": "test",
+  "gpu": "NVIDIA GeForce RTX 3080 Laptop GPU",
+  "sentences": 1000,
+  "batch_size": 16,
+  "decoding": "greedy",
+  "load_seconds": 24.46,
+  "infer_seconds": 235.92,
+  "sentences_per_second": 4.24,
+  "ms_per_sentence": 235.9,
+  "peak_infer_mem_gb": 2.88,
+  "params_total": 3237063680
+}
